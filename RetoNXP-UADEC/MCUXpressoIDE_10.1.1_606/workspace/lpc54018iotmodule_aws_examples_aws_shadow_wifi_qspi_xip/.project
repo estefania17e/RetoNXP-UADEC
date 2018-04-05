@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>lpc54018iotmodule_aws_examples_aws_shadow_wifi_qspi_xip</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>com.nxp.mcuxpresso.core.datamodels.sdkNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>doc/readme.txt</name>
+			<type>1</type>
+			<locationURI>SDK_2_x_LPC54018_IoT_Module/boards/lpc54018iotmodule/aws_examples/shadow_wifi_qspi_xip/readme.txt</locationURI>
+		</link>
+		<link>
+			<name>doc/amazon-freertos/devmode_key_provisioning/CertificateConfigurator.html</name>
+			<type>1</type>
+			<locationURI>SDK_2_x_LPC54018_IoT_Module/rtos/amazon-freertos/demos/common/devmode_key_provisioning/CertificateConfigurationTool/CertificateConfigurator.html</locationURI>
+		</link>
+		<link>
+			<name>doc/amazon-freertos/FreeRTOS/portable/readme.txt</name>
+			<type>1</type>
+			<locationURI>SDK_2_x_LPC54018_IoT_Module/rtos/amazon-freertos/lib/FreeRTOS/portable/readme.txt</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
